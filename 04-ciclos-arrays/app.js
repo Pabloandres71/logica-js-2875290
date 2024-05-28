@@ -1,3 +1,4 @@
+
 //Ciclos y arrays
 //                  0             1         2         3     
 let materias = ['matematicas','sociales','español','fisica']
@@ -52,3 +53,4 @@ while(inputUsuario != 'salir'){
 for(let i = 0; i<artistas.length; i++){
     console.log(`${i+1}. ${artistas[i]}`)
 }
+
