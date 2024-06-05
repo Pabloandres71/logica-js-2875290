@@ -23,5 +23,3 @@ function multiplicar(num1,num2){
 console.log( `El resultado es: ${ multiplicar(n1,n2) }` )
 
 //Crear una función que le diga cuanto debe ahorrar al mes según sus ingresos. Que la función se llame "calcularAhorro"
-
-
