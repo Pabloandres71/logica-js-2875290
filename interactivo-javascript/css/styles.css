@@ -1,0 +1,124 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.otro {
+    width: 200px;
+    height: 200px;
+    background-image: url('../img/Logo.svg');
+}
+
+.backgroundimage {
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/DDFLUJO.png');
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 10px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-links li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Section styles */
+.imagen img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.galeria {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.galeria .miniaturas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria .miniatura {
+    margin: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(38, 154, 154, 0.749);
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.social i {
+    font-size: 25px;
+    color: rgba(7, 16, 190, 0.582);
+}
+
+.social-icons a {
+    margin: 20px;
+    font-size: 60px;
+}
+
+.privacy-policy a {
+    color: black;
+    text-decoration: solid;
+    font-size: 20px;
+}
+
+.privacy-policy a:hover {
+    text-decoration: underline;
+}
